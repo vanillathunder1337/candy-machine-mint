@@ -21,9 +21,9 @@ import {
 
 const ConnectButton = styled(WalletDialogButton)``;
 
-const CounterText = styled.span``; // add your styles here
+const CounterText = styled.span`font-family: 'Source Code Pro', monospace;`; // add your styles here
 
-const MintContainer = styled.div``; // add your styles here
+const MintContainer = styled.div`font-family: 'Source Code Pro', monospace;`; // add your styles here
 
 const MintButton = styled(Button)``; // add your styles here
 
@@ -183,7 +183,7 @@ const Home = (props: HomeProps) => {
               isMinting ? (
                 <CircularProgress />
               ) : (
-                "MINT"
+                "MINT one token"
               )
             ) : (
               <Countdown
